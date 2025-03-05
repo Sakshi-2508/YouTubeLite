@@ -25,9 +25,11 @@ A **lightweight and beautiful** YouTube-inspired video platform where users can 
 
 ## 📸 Screenshots
 
-<img src="./screenshots/home.png" alt="Home" width="400" height="200"> |
-<img src="./screenshots/short.png" alt="Shorts" width="400" height="200"> | 
-<img src="./screenshots/trend.png" alt="Trending" width="400" height="200"> |
+<img src="./screenshots/home.png" alt="Home" width="400" height="200"> 
+
+<img src="./screenshots/short.png" alt="Shorts" width="400" height="200"> 
+
+<img src="./screenshots/trend.png" alt="Trending" width="400" height="200"> 
 
 
 ---
