@@ -27,7 +27,7 @@ A **lightweight and beautiful** YouTube-inspired video platform where users can 
 
 | Home Page | Shorts Page | Trending Page |
 |-----------|------------|--------------|
-| ![Home](screenshots/home.png) | ![Shorts](screenshots/shorts.png) | ![Trending](screenshots/trending.png) |
+| ![Home](./screenshots/home.png) | ![Shorts](./screenshots/short.png) | ![Trending](./screenshots/trend.png) |
 
 ---
 
