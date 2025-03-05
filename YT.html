@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <title>YouTube Lite</title>
+
+  <style>
+    body {
+      background-color: black;
+      color: white;
+    }
+
+
+    /* Navbar */
+
+    .header {
+      padding-top: 20px;
+      /* Adds space from the top */
+    }
+
+    .nav {
+      background-color: #222;
+      padding: 10px 0;
+      border-radius: 10px;
+    }
+
+    .nav a {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .nav a:hover {
+      color: #ffcc00 !important;
+    }
+
+    /* Search Bar */
+    .form-inline .form-control {
+      width: 250px;
+      border-radius: 20px;
+    }
+
+    /* Sign-in Button */
+    .sign-in-btn {
+      border-radius: 20px;
+    }
+
+    /* Cards Styling */
+    .card {
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+      background-color: #333;
+      color: white;
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+    }
+
+    .card video {
+      border-radius: 10px 10px 0 0;
+    }
+
+    .card-title {
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    /* Responsive Padding */
+    .video-container {
+      padding: 20px;
+    }
+
+    .shorts-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .shorts-card {
+      width: 300px;
+      background: #222;
+      padding: 10px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    }
+
+    .shorts-video {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <div class="container-fluid header">
+    <div class="row">
+      <!-- Name Column -->
+      <div class="col-md-4">
+        <h2 class="text-warning">YouTube Lite</h2>
+      </div>
+
+      <!-- Search Bar Column -->
+      <div class="col-md-4 text-center">
+        <form class="form-inline justify-content-center">
+          <input class="form-control mr-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+
+      <!-- Sign In Button Column -->
+      <div class="col-md-4 text-right">
+        <button class="btn btn-primary sign-in-btn">Sign In</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navbar -->
+  <ul class="nav justify-content-center mt-3">
+    <li class="nav-item">
+      <a class="nav-link text-white" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="shorts.html">Shorts</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link text-white" href="trending.html">Trending</a>
+    </li>
+  </ul>
+
+  <!-- Video Content -->
+  <div class="container video-container">
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/munchies.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Munchies</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/pizza.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Pizza</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/vegies.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Veggies</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/meat.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Meat</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/tea.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Tea</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/honey.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Honey</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/fruits.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Fruits</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-3">
+        <div class="card">
+          <video class="card-img-top" src="videos/cheese.mp4" controls></video>
+          <div class="card-body">
+            <h5 class="card-title text-center">Cheese</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
